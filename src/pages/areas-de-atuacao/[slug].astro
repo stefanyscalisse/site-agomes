@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { areas } from '../../content/site';
+export function getStaticPaths() { return areas.map((area) => ({ params: { slug: area.slug }, props: { area } })); }
+const { area } = Astro.props;
+---
+<Layout title={`${area.name} | A Gomes Advogados Associados`} description={`${area.name}: orientação jurídica personalizada pela A Gomes Advogados Associados em São Paulo e online.`}>
+  <section class="page-hero"><div class="container"><p class="breadcrumbs"><a href="/">Início</a> / <a href="/areas-de-atuacao">Áreas de atuação</a> / {area.name}</p><p class="eyebrow">Área de atuação</p><h1>{area.name}</h1><p>{area.short}</p></div></section>
+  <section class="section"><div class="container detail-grid"><div class="prose"><p class="eyebrow">Atuação personalizada</p><h2>Uma análise cuidadosa para cada situação.</h2><p>{area.description}</p><p>As necessidades jurídicas variam de acordo com os fatos, documentos e objetivos de cada pessoa ou empresa. Por isso, o primeiro passo é compreender o contexto e indicar os caminhos possíveis com clareza.</p><a class="button" href="/contato">Solicitar orientação ↗</a></div><div><p class="eyebrow">Demandas relacionadas</p><ul class="demand-list">{area.demands.map((demand) => <li>{demand}</li>)}</ul></div></div></section>
+</Layout>
