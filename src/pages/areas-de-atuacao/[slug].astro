@@ -1,10 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { areas } from '../../content/site';
+import { areas, serviceDetails } from '../../content/site';
 export function getStaticPaths() { return areas.map((area) => ({ params: { slug: area.slug }, props: { area } })); }
 const { area } = Astro.props;
+const details = serviceDetails[area.slug];
 ---
 <Layout title={`${area.name} | A Gomes Advogados Associados`} description={`${area.name}: orientação jurídica personalizada pela A Gomes Advogados Associados em São Paulo e online.`}>
   <section class="page-hero"><div class="container"><p class="breadcrumbs"><a href="/">Início</a> / <a href="/areas-de-atuacao">Áreas de atuação</a> / {area.name}</p><p class="eyebrow">Área de atuação</p><h1>{area.name}</h1><p>{area.short}</p></div></section>
-  <section class="section"><div class="container detail-grid"><div class="prose"><p class="eyebrow">Atuação personalizada</p><h2>Uma análise cuidadosa para cada situação.</h2><p>{area.description}</p><p>As necessidades jurídicas variam de acordo com os fatos, documentos e objetivos de cada pessoa ou empresa. Por isso, o primeiro passo é compreender o contexto e indicar os caminhos possíveis com clareza.</p><a class="button" href="/contato">Solicitar orientação ↗</a></div><div><p class="eyebrow">Demandas relacionadas</p><ul class="demand-list">{area.demands.map((demand) => <li>{demand}</li>)}</ul></div></div></section>
+  <section class="section"><div class="container detail-grid"><div class="prose"><p class="eyebrow">Atuação personalizada</p><h2>Uma análise cuidadosa para cada situação.</h2><p>{area.description}</p><p>{details.context}</p><p>{details.approach}</p><a class="button" href="/contato">Solicitar orientação ↗</a></div><div><p class="eyebrow">Para quem é</p><p class="service-audience">{details.audience}</p><p class="eyebrow service-demand-label">Demandas relacionadas</p><ul class="demand-list">{area.demands.map((demand) => <li>{demand}</li>)}</ul></div></div></section>
+  <section class="section alt"><div class="container"><div class="section-head"><div><p class="eyebrow">Dúvidas sobre {area.name}</p><h2>Perguntas frequentes</h2></div><p>Informações gerais para ajudar você a entender os próximos passos. Cada situação depende de análise individualizada.</p></div><div class="faq-list">{details.faq.map(([question, answer]) => <details class="faq-item"><summary>{question}</summary><p>{answer}</p></details>)}</div></div></section>
 </Layout>
