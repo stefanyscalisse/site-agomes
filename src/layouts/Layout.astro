@@ -59,4 +59,6 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
  .hero .eyebrow{color:#d9ae77}
 @media(max-width:800px){.hero-grid{grid-template-columns:1fr;gap:38px}.hero-visual{min-height:330px}.hero{padding-top:70px}}
  .site-header{background:#080b10;border-bottom-color:rgba(255,255,255,.12)}.site-header nav{color:#e7e4de}.site-header nav a:hover{color:#d9ae77}.site-header .nav-cta{background:#b29161;color:#111!important}.brand img{width:150px;max-height:70px;object-fit:contain;mix-blend-mode:normal}
+ .hero{min-height:calc(100svh - 94px);display:flex;align-items:center;padding:34px 0 46px}.hero-grid{min-height:calc(100svh - 174px)}.hero-visual{height:clamp(420px,calc(100svh - 190px),650px);min-height:0;opacity:.72}.hero-visual:after{content:none}
+@media(max-width:800px){.hero{min-height:auto;padding:62px 0 70px}.hero-grid{min-height:auto}.hero-visual{height:320px;opacity:.78}}
 </style>
