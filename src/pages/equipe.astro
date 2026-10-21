@@ -4,5 +4,5 @@ import { team } from '../content/site';
 ---
 <Layout title="Equipe | A Gomes Advogados Associados" description="Conheça os profissionais da A Gomes Advogados Associados.">
   <section class="page-hero"><div class="container"><p class="breadcrumbs">Início / Equipe</p><p class="eyebrow">Equipe</p><h1>Profissionais preparados para ouvir e orientar.</h1><p>Conheça os advogados que integram a A Gomes Advogados Associados.</p></div></section>
-  <section class="section"><div class="container team-grid">{team.map((person) => <article class="team-card"><div class="avatar" aria-hidden="true">{person.name.split(' ').map((n) => n[0]).slice(0,2).join('')}</div><span class="role">{person.role}</span><h3>{person.name}</h3><p><strong>{person.oab}</strong></p><p>{person.bio}</p></article>)}</div></section>
+  <section class="section"><div class="container team-grid">{team.map((person) => <article class="team-card"><img class="team-photo" src={person.photo} alt={`Retrato de ${person.name}`} /><span class="role">{person.role}</span><h3>{person.name}</h3><p><strong>{person.oab}</strong></p><p>{person.bio}</p></article>)}</div></section>
 </Layout>

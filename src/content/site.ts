@@ -1,8 +1,8 @@
 export const contact = {
   phoneDisplay: '(11) 98216-6464',
   phoneHref: 'tel:+5511982166464',
-  whatsappDisplay: '(11) 96069-1139',
-  whatsappHref: 'https://wa.me/5511960691139?text=Olá%2C%20gostaria%20de%20falar%20com%20a%20A%20Gomes%20Advogados%20Associados.',
+  whatsappDisplay: '(11) 98216-6464',
+  whatsappHref: 'https://wa.me/5511982166464?text=Olá%2C%20gostaria%20de%20falar%20com%20a%20A%20Gomes%20Advogados%20Associados.',
   email: 'agomes69@aasp.org.br',
   formEmail: 'contato@digitaltimes.com.br',
   address: 'Rua Tabatinguera, 140, conjunto 1212, Centro, São Paulo – SP, 01020-000',
@@ -116,9 +116,9 @@ export const serviceDetails: Record<string, { context: string; audience: string;
 };
 
 export const team = [
-  { name: 'Alexandre Gomes da Silva', role: 'Advogado', oab: 'OAB/SP 335.899', bio: 'MBA em Direito do Trabalho e Direito Previdenciário, com pós-graduações em Direito do Trabalho, Direito Processual do Trabalho, Direito Civil e Direito Processual Civil.' },
-  { name: 'Leandro Rodrigo da Silva', role: 'Advogado', oab: 'OAB/SP 479.243', bio: 'Advogado integrante da equipe A Gomes Advogados Associados, com atuação orientada pela análise responsável e pelo atendimento próximo.' },
-  { name: 'Roberta de Jesus Leite', role: 'Advogada', oab: 'OAB/SP 469.912', bio: 'Pós-graduada em Direito Civil e Processual Civil e especializada em Direito Penal.' },
+  { name: 'Alexandre Gomes da Silva', role: 'Advogado', oab: 'OAB/SP 335.899', photo: '/alexandre.png', bio: 'MBA em Direito do Trabalho e Direito Previdenciário, com pós-graduações em Direito do Trabalho, Direito Processual do Trabalho, Direito Civil e Direito Processual Civil.' },
+  { name: 'Leandro Rodrigo da Silva', role: 'Advogado', oab: 'OAB/SP 479.243', photo: '/leandro.png', bio: 'Advogado integrante da equipe A Gomes Advogados Associados, com atuação orientada pela análise responsável e pelo atendimento próximo.' },
+  { name: 'Roberta de Jesus Leite', role: 'Advogada', oab: 'OAB/SP 469.912', photo: '/roberta.png', bio: 'Pós-graduada em Direito Civil e Processual Civil e especializada em Direito Penal.' },
 ];
 
 export const faq = [
