@@ -3,6 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import { faq } from '../content/site';
 ---
 <Layout title="Perguntas frequentes | A Gomes Advogados Associados" description="Respostas para dúvidas frequentes sobre atendimento jurídico na A Gomes Advogados Associados.">
-  <section class="page-hero"><div class="container"><p class="breadcrumbs">Início / Dúvidas frequentes</p><p class="eyebrow">Dúvidas frequentes</p><h1>Informação para começar com mais clareza.</h1><p>Confira respostas iniciais sobre o atendimento. Cada situação exige uma avaliação jurídica própria.</p></div></section>
+  <section class="page-hero page-specific-hero" style="--service-hero-image:url('/faq-hero.png')"><div class="container"><p class="breadcrumbs">Início / Dúvidas frequentes</p><p class="eyebrow">Dúvidas frequentes</p><h1>Informação para começar com mais clareza.</h1><p>Confira respostas iniciais sobre o atendimento. Cada situação exige uma avaliação jurídica própria.</p></div></section>
   <section class="section"><div class="container faq-list">{faq.map(([question, answer]) => <details class="faq-item"><summary>{question}</summary><p>{answer}</p></details>)}</div></section>
 </Layout>

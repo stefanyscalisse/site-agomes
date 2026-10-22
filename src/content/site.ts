@@ -11,19 +11,20 @@ export const contact = {
 };
 
 export const areas = [
-  { slug: 'direito-civil', name: 'Direito Civil', short: 'Relações privadas, contratos, indenizações e responsabilidades.', description: 'Atuação preventiva e contenciosa em relações civis, contratos, obrigações, responsabilidade civil e reparação de danos.', demands: ['Contratos e obrigações', 'Indenizações e responsabilidade civil', 'Cobranças e conflitos contratuais', 'Análise e prevenção de riscos'] },
-  { slug: 'direito-criminal', name: 'Direito Criminal', short: 'Defesa técnica e orientação jurídica em questões criminais.', description: 'Orientação e defesa técnica em inquéritos, processos criminais e situações que exigem atuação cuidadosa, estratégica e ética.', demands: ['Inquéritos e investigações', 'Defesa em processos criminais', 'Audiências e medidas cautelares', 'Acompanhamento jurídico especializado'] },
-  { slug: 'direito-trabalhista', name: 'Direito Trabalhista', short: 'Relações de trabalho mais seguras para pessoas e empresas.', description: 'Assessoria e representação em questões trabalhistas, com foco na análise de direitos, prevenção de passivos e condução responsável de conflitos.', demands: ['Verbas rescisórias e vínculos', 'Reclamações trabalhistas', 'Consultoria preventiva para empresas', 'Negociações e acordos'] },
-  { slug: 'direito-empresarial', name: 'Direito Empresarial', short: 'Segurança jurídica para decisões e relações empresariais.', description: 'Suporte jurídico para empresas em sua rotina, contratos, relações societárias e decisões que demandam clareza e segurança.', demands: ['Contratos empresariais', 'Relações entre sócios', 'Consultoria para negócios', 'Prevenção e gestão de riscos'] },
-  { slug: 'direito-imobiliario', name: 'Direito Imobiliário', short: 'Análise e proteção jurídica em negócios com imóveis.', description: 'Atuação em contratos, transações e conflitos imobiliários, com atenção à documentação, aos riscos e aos interesses envolvidos.', demands: ['Compra e venda de imóveis', 'Locação e contratos imobiliários', 'Regularização documental', 'Conflitos de posse e propriedade'] },
-  { slug: 'direito-de-familia', name: 'Direito de Família', short: 'Orientação jurídica cuidadosa para momentos decisivos.', description: 'Atendimento humanizado e estratégico em questões familiares, buscando preservar direitos, relações e interesses com responsabilidade.', demands: ['Divórcio e dissolução de união estável', 'Guarda, convivência e alimentos', 'Inventário e partilha', 'Planejamento familiar e patrimonial'] },
-  { slug: 'direito-tributario', name: 'Direito Tributário', short: 'Clareza e estratégia para obrigações e conflitos tributários.', description: 'Análise de questões tributárias e orientação para pessoas e empresas diante de obrigações, cobranças e discussões fiscais.', demands: ['Análise de obrigações tributárias', 'Defesas e recursos administrativos', 'Planejamento e prevenção de riscos', 'Discussões sobre cobranças fiscais'] },
-  { slug: 'direito-do-consumidor', name: 'Direito do Consumidor', short: 'Proteção em relações de consumo e prestação de serviços.', description: 'Orientação e atuação em conflitos de consumo, buscando soluções adequadas para relações com fornecedores e prestadores de serviços.', demands: ['Cobranças indevidas', 'Falhas em produtos e serviços', 'Contratos de consumo', 'Indenizações e negociações'] },
-  { slug: 'direito-previdenciario', name: 'Direito Previdenciário', short: 'Orientação para benefícios e direitos previdenciários.', description: 'Atuação em planejamento, requerimentos e discussões relacionadas a benefícios previdenciários, com análise individualizada de cada caso.', demands: ['Aposentadorias e pensões', 'Benefícios por incapacidade', 'Revisões e requerimentos', 'Planejamento previdenciário'] },
+  { slug: 'direito-civil', name: 'Direito Civil', short: 'Relações privadas, contratos, indenizações e responsabilidades.', heroImage: '/civil-hero.png', description: 'Atuação preventiva e contenciosa em relações civis, contratos, obrigações, responsabilidade civil e reparação de danos.', demands: ['Contratos e obrigações', 'Indenizações e responsabilidade civil', 'Cobranças e conflitos contratuais', 'Análise e prevenção de riscos'] },
+  { slug: 'direito-criminal', name: 'Direito Criminal', short: 'Defesa técnica e orientação jurídica em questões criminais.', heroImage: '/criminal-hero.png', description: 'Orientação e defesa técnica em inquéritos, processos criminais e situações que exigem atuação cuidadosa, estratégica e ética.', demands: ['Inquéritos e investigações', 'Defesa em processos criminais', 'Audiências e medidas cautelares', 'Acompanhamento jurídico especializado'] },
+  { slug: 'direito-trabalhista', name: 'Direito Trabalhista', short: 'Relações de trabalho mais seguras para pessoas e empresas.', heroImage: '/trabalhista-hero.png', description: 'Assessoria e representação em questões trabalhistas, com foco na análise de direitos, prevenção de passivos e condução responsável de conflitos.', demands: ['Verbas rescisórias e vínculos', 'Reclamações trabalhistas', 'Consultoria preventiva para empresas', 'Negociações e acordos'] },
+  { slug: 'direito-empresarial', name: 'Direito Empresarial', short: 'Segurança jurídica para decisões e relações empresariais.', heroImage: '/empresarial-hero.png', description: 'Suporte jurídico para empresas em sua rotina, contratos, relações societárias e decisões que demandam clareza e segurança.', demands: ['Contratos empresariais', 'Relações entre sócios', 'Consultoria para negócios', 'Prevenção e gestão de riscos'] },
+  { slug: 'direito-imobiliario', name: 'Direito Imobiliário', short: 'Análise e proteção jurídica em negócios com imóveis.', heroImage: '/imobiliario-hero.png', description: 'Atuação em contratos, transações e conflitos imobiliários, com atenção à documentação, aos riscos e aos interesses envolvidos.', demands: ['Compra e venda de imóveis', 'Locação e contratos imobiliários', 'Regularização documental', 'Conflitos de posse e propriedade'] },
+  { slug: 'direito-de-familia', name: 'Direito de Família', short: 'Orientação jurídica cuidadosa para momentos decisivos.', heroImage: '/familia-hero.png', description: 'Atendimento humanizado e estratégico em questões familiares, buscando preservar direitos, relações e interesses com responsabilidade.', demands: ['Divórcio e dissolução de união estável', 'Guarda, convivência e alimentos', 'Inventário e partilha', 'Planejamento familiar e patrimonial'] },
+  { slug: 'direito-tributario', name: 'Direito Tributário', short: 'Clareza e estratégia para obrigações e conflitos tributários.', heroImage: '/tributario-hero.png', description: 'Análise de questões tributárias e orientação para pessoas e empresas diante de obrigações, cobranças e discussões fiscais.', demands: ['Análise de obrigações tributárias', 'Defesas e recursos administrativos', 'Planejamento e prevenção de riscos', 'Discussões sobre cobranças fiscais'] },
+  { slug: 'direito-do-consumidor', name: 'Direito do Consumidor', short: 'Proteção em relações de consumo e prestação de serviços.', heroImage: '/consumidor-hero.png', description: 'Orientação e atuação em conflitos de consumo, buscando soluções adequadas para relações com fornecedores e prestadores de serviços.', demands: ['Cobranças indevidas', 'Falhas em produtos e serviços', 'Contratos de consumo', 'Indenizações e negociações'] },
+  { slug: 'direito-previdenciario', name: 'Direito Previdenciário', short: 'Orientação para benefícios e direitos previdenciários.', heroImage: '/previdenciario-hero.png', description: 'Atuação em planejamento, requerimentos e discussões relacionadas a benefícios previdenciários, com análise individualizada de cada caso.', demands: ['Aposentadorias e pensões', 'Benefícios por incapacidade', 'Revisões e requerimentos', 'Planejamento previdenciário'] },
 ];
 
-export const serviceDetails: Record<string, { context: string; audience: string; approach: string; faq: [string, string][] }> = {
+export const serviceDetails: Record<string, { heading: string; context: string; audience: string; approach: string; faq: [string, string][] }> = {
   'direito-civil': {
+    heading: 'Segurança jurídica para relações que fazem parte da sua vida.',
     context: 'O Direito Civil organiza relações entre pessoas e empresas, desde a formação de um contrato até a reparação de um dano. A análise considera documentos, prazos, responsabilidades e os objetivos envolvidos.',
     audience: 'Pessoas e empresas envolvidas em contratos, cobranças, indenizações ou conflitos patrimoniais.',
     approach: 'A atuação pode envolver análise documental, orientação preventiva, negociação e adoção das medidas judiciais ou extrajudiciais cabíveis.',
@@ -34,6 +35,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-criminal': {
+    heading: 'Defesa técnica para momentos que exigem firmeza e discrição.',
     context: 'Questões criminais exigem atuação técnica, sigilosa e atenta aos prazos. O trabalho começa pela compreensão dos fatos e da fase da investigação ou do processo, sempre respeitando as garantias legais.',
     audience: 'Pessoas investigadas, acusadas ou envolvidas em procedimentos criminais, além de familiares que necessitem de orientação jurídica.',
     approach: 'A atuação pode incluir acompanhamento de investigações, análise de medidas cautelares, preparação para audiências e defesa técnica nos limites da legislação.',
@@ -44,6 +46,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-trabalhista': {
+    heading: 'Relações de trabalho orientadas com clareza e responsabilidade.',
     context: 'As relações de trabalho envolvem direitos, deveres, documentos e prazos que precisam ser analisados em conjunto. A orientação adequada contribui para decisões mais seguras para trabalhadores e empresas.',
     audience: 'Trabalhadores, empregadores e empresas que precisam esclarecer direitos, obrigações ou conflitos relacionados ao trabalho.',
     approach: 'A atuação pode abranger análise de vínculos e documentos, orientação preventiva, negociações, acordos e representação em reclamações trabalhistas.',
@@ -54,6 +57,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-empresarial': {
+    heading: 'Decisões empresariais mais seguras para sustentar o seu negócio.',
     context: 'Decisões empresariais precisam considerar contratos, responsabilidades, relações entre sócios e riscos jurídicos. O suporte jurídico pode acompanhar a rotina do negócio e situações específicas.',
     audience: 'Empresas, sócios, administradores e empreendedores que buscam mais segurança jurídica para suas decisões.',
     approach: 'O trabalho pode envolver revisão contratual, análise de relações societárias, prevenção de conflitos e orientação para decisões empresariais.',
@@ -64,6 +68,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-imobiliario': {
+    heading: 'Patrimônio protegido em cada negociação e decisão imobiliária.',
     context: 'Negócios e conflitos envolvendo imóveis exigem atenção à documentação, ao contrato e à situação registral. Uma análise prévia pode ajudar a esclarecer riscos antes de uma decisão patrimonial.',
     audience: 'Proprietários, compradores, vendedores, locadores, locatários e empresas envolvidas em negócios imobiliários.',
     approach: 'A atuação pode incluir análise de contratos e documentos, orientação em locações, regularização e avaliação de conflitos de posse ou propriedade.',
@@ -74,6 +79,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-de-familia': {
+    heading: 'Cuidado e orientação para escolhas que envolvem a família.',
     context: 'Questões familiares envolvem aspectos jurídicos e pessoais. O atendimento busca organizar informações, esclarecer possibilidades e preservar direitos com sensibilidade, discrição e responsabilidade.',
     audience: 'Pessoas que precisam de orientação em divórcio, união estável, guarda, alimentos, inventário ou planejamento familiar e patrimonial.',
     approach: 'A atuação pode incluir orientação, elaboração e revisão de acordos, representação em procedimentos e acompanhamento de demandas judiciais quando necessário.',
@@ -84,6 +90,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-tributario': {
+    heading: 'Estratégia para compreender obrigações e reduzir riscos tributários.',
     context: 'Obrigações e discussões tributárias podem afetar diretamente o patrimônio e a operação de pessoas e empresas. A análise individualizada ajuda a compreender documentos, prazos e alternativas previstas em lei.',
     audience: 'Pessoas físicas, empresas e responsáveis por decisões financeiras ou administrativas relacionadas a obrigações tributárias.',
     approach: 'O trabalho pode envolver análise de cobranças, orientação preventiva, defesas e recursos administrativos e avaliação de riscos tributários.',
@@ -94,6 +101,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-do-consumidor': {
+    heading: 'Seus direitos respeitados nas relações de consumo.',
     context: 'As relações de consumo envolvem produtos, serviços, contratos e deveres de informação. A documentação da compra e das tentativas de solução é importante para avaliar cada situação.',
     audience: 'Consumidores e fornecedores que precisam esclarecer direitos, deveres ou conflitos em relações de consumo.',
     approach: 'A atuação pode incluir análise de documentos, orientação sobre alternativas de solução, negociação e medidas administrativas ou judiciais cabíveis.',
@@ -104,6 +112,7 @@ export const serviceDetails: Record<string, { context: string; audience: string;
     ],
   },
   'direito-previdenciario': {
+    heading: 'Planejamento e orientação para proteger o seu futuro.',
     context: 'Benefícios previdenciários dependem de histórico contributivo, documentos e requisitos específicos. Uma análise organizada pode ajudar a identificar informações relevantes antes de um requerimento ou recurso.',
     audience: 'Segurados, aposentados, pensionistas e famílias que precisam de orientação sobre benefícios e planejamento previdenciário.',
     approach: 'A atuação pode abranger análise do histórico, planejamento, requerimentos, revisões e discussões administrativas ou judiciais quando cabíveis.',
