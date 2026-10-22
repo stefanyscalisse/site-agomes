@@ -5,4 +5,5 @@ import { areas } from '../../content/site';
 <Layout title="Áreas de atuação | A Gomes Advogados Associados" description="Conheça as áreas de atuação da A Gomes Advogados Associados em São Paulo e online para todo o Brasil.">
   <section class="page-hero"><div class="container"><p class="breadcrumbs">Início / Áreas de atuação</p><p class="eyebrow">Áreas de atuação</p><h1>Experiência para diferentes desafios jurídicos.</h1><p>Conheça nossas áreas e encontre o ponto de partida para uma orientação individualizada.</p></div></section>
   <section class="section"><div class="container"><div class="area-grid">{areas.map((area) => <a class="area-card" href={`/areas-de-atuacao/${area.slug}`}><div><span class="eyebrow">{String(areas.indexOf(area) + 1).padStart(2,'0')}</span><h3>{area.name}</h3><p>{area.short}</p></div><span class="card-link">Ver área →</span></a>)}</div></div></section>
+  <section class="cta-band about-cta"><div class="container"><div><p class="eyebrow">Vamos conversar</p><h2>Conte com uma equipe preparada para ouvir e orientar.</h2></div><a class="button" href="/contato">Fale conosco ↗</a></div></section>
 </Layout>
